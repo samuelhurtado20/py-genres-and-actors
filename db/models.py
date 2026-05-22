@@ -1,7 +1,7 @@
 from django.db import models
 
 
-class Genre(models.Model):  # <-- Corregido aquí de models.models.Model a models.Model
+class Genre(models.Model):
     name = models.CharField(max_length=255)
 
 
